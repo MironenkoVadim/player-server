@@ -1,5 +1,0 @@
-/**
- *  @fn $(fclass)::$(function)
- *  $(javaparam)
- *  @details TODO
- */

@@ -1,8 +1,0 @@
-test:bionic:
-  image: bionic-dev
-  before_script:
-    - apt-get update
-    - apt-get -y --force-yes install shellcheck
-  script:
-    - shellcheck cmake.sh
-

@@ -1,8 +1,0 @@
-#ifndef PVS_STUDIO_HPP_
-#define PVS_STUDIO_HPP_
-
-#pragma once
-
-//-V813_MINSIZE=33
-
-#endif // PVS_STUDIO_HPP_

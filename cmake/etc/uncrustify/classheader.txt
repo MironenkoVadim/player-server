@@ -1,5 +1,0 @@
-/**
- *  @class   $(fclass)
- *  @brief   TODO
- *  @details TODO
- */

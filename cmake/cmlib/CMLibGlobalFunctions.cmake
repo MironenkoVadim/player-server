@@ -1,5 +1,0 @@
-function(canonical_string INV OUTV)
-  string(TOUPPER ${INV} _arg_uppercase)
-  string(REGEX REPLACE "[ -]" "_" _arg_fixed ${_arg_uppercase})
-  set(${OUTV} ${_arg_fixed} PARENT_SCOPE)
-endfunction()

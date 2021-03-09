@@ -1,3 +1,0 @@
-[submodule "thirdparty/sanitizers"]
-	path = thirdparty/sanitizers
-	url = ../../f1x1t/cmake-sanitizers
