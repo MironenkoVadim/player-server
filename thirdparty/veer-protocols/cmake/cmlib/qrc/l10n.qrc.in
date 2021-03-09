@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="/qm">
+    @L10N_QRC_BODY@
+  </qresource>
+</RCC>

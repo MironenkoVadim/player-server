@@ -1,0 +1,21 @@
+[submodule "cmake/etc/uncrustify"]
+	path = cmake/etc/uncrustify
+	url = ../../f1x1t/uncrustify-config.git
+[submodule "cmake/cmlib"]
+	path = cmake/cmlib
+	url = ../../f1x1t/cmlib
+[submodule "cmake/find"]
+	path = cmake/find
+	url = ../../f1x1t/cmake-find
+[submodule "cmake/generators"]
+	path = cmake/generators
+	url = ../../f1x1t/cmake-generators
+[submodule "thirdparty/myxlib"]
+	path = thirdparty/myxlib
+	url = ../../f1x1t/myxlib.git
+[submodule "cmake/doc"]
+	path = cmake/doc
+	url = ../../f1x1t/cmake-doc
+[submodule "thirdparty/veer-protocols"]
+	path = thirdparty/veer-protocols
+	url = ../../f1x1t/veer-protocols.git

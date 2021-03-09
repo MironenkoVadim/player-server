@@ -1,0 +1,11 @@
+include:
+  - project: 'f1x1t/gitlab-ci'
+    ref: master
+    file: 'scheduled.yml'
+
+orel212-nightly:
+  extends: .scheduled-orel212
+
+focal-nightly:
+  extends: .scheduled-focal
+

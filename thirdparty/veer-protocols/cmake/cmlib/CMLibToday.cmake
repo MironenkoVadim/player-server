@@ -1,0 +1,8 @@
+if(NOT TODAY)
+  if(WIN32)
+    execute_process(COMMAND "cmd" " /C date /T" OUTPUT_VARIABLE TODAY)
+  else()
+    execute_process(COMMAND "date" "+%d/%m/%Y" OUTPUT_VARIABLE TODAY)
+  endif()
+  string(REGEX REPLACE "(..)/(..)/(....).*" "\\3-\\2-\\1" TODAY ${TODAY})
+endif()

@@ -1,0 +1,6 @@
+if(NOT TARGET uninstall)
+  configure_file("${CMLIB_MODULE_DIR}/CMLibUninstall.cmake.in" "${CMAKE_BINARY_DIR}/cmake_uninstall.cmake"
+                 IMMEDIATE @ONLY)
+
+  add_custom_target(uninstall COMMAND ${CMAKE_COMMAND} -P ${CMAKE_BINARY_DIR}/cmake_uninstall.cmake)
+endif()
